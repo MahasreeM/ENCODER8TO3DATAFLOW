@@ -1,3 +1,5 @@
+# REG.NO:212224110035
+# NAME: MAHA SHREE.M
 ### ENCODER 8TO3 DATAFLOW Modelling
 
 **AIM:**
@@ -40,14 +42,24 @@ Figure 02  Encoder 8 * 3
 
 **PROGRAM**
 
-/* Program for Encoder 8 To 3 in Dataflow Modelling and verify its truth table in quartus using Verilog programming. 
-
-Developed by: RegisterNumber:
-*/
+/* Program for Encoder 8 To 3 in Dataflow Modelling and verify its truth table in quartus using Verilog programming.
+```
+module enc(a,b,c,y0,y1,y2,y3,y4,y5,y6,y7);
+input y0,y1,y2,y3,y4,y5,y6,y7;
+output a,b,c;
+assign a= (y4 | y5 | y6 | y7);
+assign b= (y2 | y3 | y6 | y7);
+assign c= (y1 | y3 | y5 | y7);
+endmodule
+```
 
 **RTL LOGIC FOR Encoder 8 To 3 in Dataflow Modelling**
 
+![exp5 work](https://github.com/user-attachments/assets/bd666366-a791-4487-83da-4ce43d27ff30)
+
 **TIMING DIGRAMS FOR Encoder 8 To 3 in Dataflow Modelling**
+
+![exp5 wave](https://github.com/user-attachments/assets/59d22433-d09f-4369-9fda-a6226568eef2)
 
 **RESULTS**
 
