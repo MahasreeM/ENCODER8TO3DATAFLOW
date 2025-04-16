@@ -62,7 +62,7 @@ endmodule
 ![exp5 wave](https://github.com/user-attachments/assets/59d22433-d09f-4369-9fda-a6226568eef2)
 
 **RESULTS**
-
+Successfully implemented Encoder 8 to 3 in Dataflow Modelling using verilog and validated their functional tables
 
 
 
